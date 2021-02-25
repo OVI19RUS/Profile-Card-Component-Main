@@ -1,0 +1,101 @@
+body {background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    height: 100%;
+    overflow: hidden;
+    }
+
+a { color: hsl(228, 45%, 44%); }
+
+hr {border: 0;
+    height: 1px;
+    background: hsl(0, 0%, 59%);}
+
+p {margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    color: hsl(227, 10%, 46%);
+}
+
+section {display: flex;
+    justify-content: center;
+    margin-top: 10%;}
+
+
+.balls {position: relative;}
+
+.ball1 {position: absolute;
+        left: -6%;
+        top: -45%;}
+
+
+.ball2 {position: absolute;
+        right: -8%;
+        bottom: -20%;}
+
+.attribution {font-size: 11px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+text-align: center;}
+
+.fact {display: flex;
+    }
+
+.Section {display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+         }
+
+.card {position: relative;
+       background-color: white;
+       width: 27rem;
+       height: 27rem;
+       border-radius: 8%;
+       }
+
+.Heading {font-weight: 1000;
+font-size: 18px;
+color: hsl(229, 23%, 23%);}
+
+.bubbles {position: relative;}
+
+.followers {position: relative;
+display: inline-block;
+margin-right: 4%;
+}
+
+.likes {position: relative;
+    display: inline-block;
+    }
+
+.photos {position: relative;
+    display: inline-block;
+    margin-left: 4%;
+    }
+
+.London {margin: 13px 0 20px 0;
+font-size: 14px;}
+
+.Name {margin-top: 4.5rem;}
+
+.Number {margin-left: 18px;}
+
+.Profile {border-radius: 50%;
+border-style: solid;
+border-width: 6px;
+border-color: white;
+width: 92%;}
+
+.Div {margin-top: -4.7rem;
+      margin-left: -4.1rem;
+position: absolute;
+display: inline-block;
+width: 29%;}
+
+.image {border-top-right-radius: 9.7%;
+    border-top-left-radius: 9.7%;
+    width: 100%;
+}
