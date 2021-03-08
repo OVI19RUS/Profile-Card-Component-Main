@@ -20,19 +20,21 @@ p {margin: 0;
 
 section {display: flex;
     justify-content: center;
-   }
+    margin-top: 10%;}
 
 
 .balls {position: relative;}
 
 .ball1 {position: absolute;
         left: -6%;
-        top: -45%;}
+        top: -45%;
+        width: 50%;}
 
 
 .ball2 {position: absolute;
         right: -8%;
-        bottom: -20%;}
+        bottom: -20%;
+        width: 50%;}
 
 .attribution {font-size: 11px;
     position: absolute;
@@ -49,11 +51,12 @@ text-align: center;}
     height: 100vh;
          }
 
-.card {position: relative;
+.col-sm-12 {position: relative;
        background-color: white;
        width: 27rem;
        height: 27rem;
        border-radius: 8%;
+       text-align: center;
        }
 
 .Heading {font-weight: 1000;
